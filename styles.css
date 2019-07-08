@@ -111,3 +111,56 @@ footer p {
 .footer-logo {
   max-height: 100px;
 }
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1023px) {
+  nav .logo {
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: 2px;
+      left: 0;
+      right: 0;
+      height: 38px;
+  }
+  nav .navigation #menu-btn {
+      margin: 20px 0 20px 15px;
+      font-weight: 600;
+      font-size: 18px;
+      display: block;
+      float: left;
+      background: 0 0;
+      outline: none;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+  }
+  nav .navigation .burger {
+      display: none;
+  }
+  nav .navigation .burger.visible {
+      display: block;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      background-color: #fff;
+      margin: 0;
+      padding: 10px;
+      box-shadow: 0 0 12px 0 #0000001a, inset 0 -2px 0 0 #0000000d;
+  }
+  nav .navigation .burger.visible li {
+      display: block;
+      height: 35px
+  }
+  nav .navigation .burger.visible li a {
+      line-height: 35px;
+      color: #1a8cff;
+  }
+  nav .navigation .burger.visible li a:hover {
+      color: #5aa9f8;
+  }
+  nav .navigation .burger.visible .mobile-only {
+      display: block;
+  }
+}
