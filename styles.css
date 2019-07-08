@@ -95,3 +95,19 @@ nav .navigation .login-container a {
 nav .navigation .login-container:hover {
   background-color: #f0f0f0
 }
+
+footer {
+  display: block;
+  background-color: #010e28;
+  padding: 50px 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-logo {
+  max-height: 100px;
+}
