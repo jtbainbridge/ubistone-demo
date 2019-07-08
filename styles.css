@@ -177,6 +177,31 @@ footer p {
   }
 }
 
+.icon-container ul {
+  list-style: none;
+}
+
+.icon-container li {
+  list-style-type: none;
+  padding: 8px;
+}
+
+.icon-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  justify-content: space-between;
+}
+
+.icon-container li i {
+  text-align: center;
+  font-size: 60px;
+}
+
+.icon-container li i:hover {
+  color: #e6bc03;
+}
+
 
 /* MEDIA QUERIES */
 @media (max-width: 600px){
