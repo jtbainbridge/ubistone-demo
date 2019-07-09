@@ -6,6 +6,7 @@ menuBtn.onclick = function () {
     burgerMenu.classList.toggle('visible');
 }
 
+
 // Theme selector
 function themeSelect() {
   const lightBtn = document.getElementById('light');
@@ -26,3 +27,25 @@ function themeSelect() {
 };
 
 window.onload = themeSelect();
+
+
+// Icon hover effect
+function iconHover() {
+  const icons = document.getElementById('tech').getElementsByTagName('i');
+  const iconName = document.getElementById('icon-name');
+  const iconNames = ['HTML 5', 'CSS 3', 'JavaScript', 'React', 'Amazon Web Services', 'Git'];
+  // Mouse over icon action
+  for (let i = 0; i < icons.length; i++) {
+      icons[i].addEventListener('mouseover', function () {
+          iconName.innerHTML = iconNames[i];
+      });
+  };
+  // Mouse not over icon action
+  for (let i = 0; i < icons.length; i++) {
+      icons[i].addEventListener('mouseleave', function () {
+          iconName.innerHTML = 'Technlogies';
+      });
+  };
+};
+
+window.onload = iconHover();
