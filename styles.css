@@ -305,6 +305,23 @@ body>section:not(.hero) {
   border-radius: 0 0 5px 5px;
 }
 
+.blue {
+  border-bottom: 3px solid rgb(0, 150, 248);
+}
+
+.green {
+  border-bottom: 3px solid rgb(91, 201, 52);
+}
+
+.red {
+  border-bottom: 3px solid rgb(253, 79, 0);
+}
+
+.yellow {
+  border-bottom: 3px solid rgb(254, 193, 9);
+}
+
+
 
 /* MEDIA QUERIES */
 @media (max-width: 600px){
