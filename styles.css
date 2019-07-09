@@ -288,6 +288,22 @@ body>section:not(.hero) {
   padding-bottom: 20px;
 }
 
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+
+}
+
+.card {
+  background-color: rgba(204, 217, 209, 0.2);
+  max-width: 42%;
+  color: rgba(3, 27, 78, 1);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 0 0 5px 5px;
+}
 
 
 /* MEDIA QUERIES */
@@ -340,6 +356,9 @@ body>section:not(.hero) {
   }
   #home section.home-intro .image-container .graphic {
       scale: 0.5;
+  }
+  .card {
+    max-width: 100%;
   }
 }
 
