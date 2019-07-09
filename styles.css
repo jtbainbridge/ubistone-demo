@@ -348,12 +348,31 @@ body>section:not(.hero) {
   border-bottom: 3px solid rgb(254, 193, 9);
 }
 
+.b-card {
+  text-align: center;
+}
+
+.b-img {
+  max-height: 350px;
+}
+
+#beers h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #031b4e98
+}
+
+#beers p {
+  margin-top: 5px;
+}
+
 
 
 /* MEDIA QUERIES */
 @media (max-width: 600px){
   h2 {
-    font-size: 1em;
+    font-size: 1.3em;
   }
   .hero h1 {
     font-size: 2.5em;
@@ -395,6 +414,9 @@ body>section:not(.hero) {
   }
   .theme-control>div {
     width: 3.8rem;
+  }
+  .b-img {
+    max-height: 280px;
   }
 }
 
