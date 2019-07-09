@@ -177,6 +177,15 @@ footer p {
   }
 }
 
+.wrapper {
+  max-width: 61.25rem;
+  margin: 0 auto;
+}
+
+.grey {
+  background: rgba(77,125,153,0.03);
+}
+
 .icon-container ul {
   list-style: none;
 }
@@ -200,6 +209,33 @@ footer p {
 
 .icon-container li i:hover {
   color: #e6bc03;
+}
+
+section>.wrapper {
+  padding: 30px 20px;
+}
+
+body>section:not(.hero) {
+  border-bottom: 1px solid rgba(204, 217, 209, 0.2);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.span-6 {
+  margin-left: 2.5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fibre-img {
+  width: 250px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+  border-radius: 20px;
 }
 
 
