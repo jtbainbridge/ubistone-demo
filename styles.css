@@ -211,6 +211,11 @@ footer p {
   color: #e6bc03;
 }
 
+.description {
+  text-align: center;
+  font-weight: 400;
+}
+
 section>.wrapper {
   padding: 30px 20px;
 }
@@ -355,6 +360,9 @@ body>section:not(.hero) {
   }
   .icon-container {
     grid-template-columns: repeat(3, 2fr);
+  }
+  .description{
+    font-size: 1rem;
   }
   .fibre-img {
     width: 150px;
