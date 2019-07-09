@@ -288,6 +288,28 @@ body>section:not(.hero) {
   padding-bottom: 20px;
 }
 
+.theme-control {
+  display: inline-block;
+  border: 1px solid #0096F8;
+  border-radius: .25rem;
+  font-size: 1rem;
+}
+
+.theme-control>div {
+  display: inline-block;
+  padding: .65rem 2.25rem;
+  color: #0096F8;
+  font-weight: 600;
+  cursor: pointer;
+  width: 6rem;
+  text-align: center;
+}
+
+.theme-control>div.active  {
+  background-color: #0096F8;
+  color: #fff;
+}
+
 .card-row {
   display: flex;
   flex-wrap: wrap;
